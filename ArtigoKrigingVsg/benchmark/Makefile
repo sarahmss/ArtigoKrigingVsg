@@ -1,7 +1,7 @@
 .PHONY: all clean fclean build Exponential Gaussian HoleEffect Linear Original Power Spherical
 
 # Diretórios contendo os notebooks 
-DIRS = Exponential Gaussian HoleEffect Linear Original Power Spherical
+DIRS = Gaussian HoleEffect Linear Original Power Spherical Exponential 
 
 # Executar todos os notebooks em todas as pastas
 all: $(DIRS)
