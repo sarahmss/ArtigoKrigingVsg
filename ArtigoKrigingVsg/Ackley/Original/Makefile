@@ -1,7 +1,7 @@
 .PHONY: all folders clean fclean execute_notebooks
 
 # Lista de notebooks
-Notebooks = Teste.ipynb Analizer.ipynb 
+Notebooks =  Analizer.ipynb 
 
 # Regra padrão que executa os notebooks
 all: folders execute_notebooks
