@@ -1,7 +1,7 @@
 .PHONY: all clean fclean build 00_DotProduct  01_ExpSinesquared  02_RationalQuadratic  03_RBF  04_Matern  05_NoVirtualSamples 
 
 # Diretórios contendo os notebooks 
-DIRS = 00_DotProduct  01_ExpSinesquared  02_RationalQuadratic  03_RBF  04_Matern  05_NoVirtualSamples s
+DIRS = 00_DotProduct  01_ExpSinesquared  02_RationalQuadratic  03_RBF  04_Matern  05_NoVirtualSamples 
 
 # Executar todos os notebooks em todas as pastas
 all: $(DIRS)
